@@ -1,14 +1,12 @@
 /**
  * .eslintrc.js
  * https://github.com/AlloyTeam/eslint-config-alloy
+ * https://nextjs.org/docs/basic-features/eslint
  *
  */
 
 module.exports = {
-  extends: [
-    'alloy',
-    'alloy/react',
-  ],
+  extends: ['alloy', 'next'],
   env: {
     // Your environments (which contains several predefined global variables)
     //
@@ -23,19 +21,9 @@ module.exports = {
     //
     // myGlobal: false
   },
-  "plugins": [
-    "react-hooks",
-  ],
   rules: {
     // Customize your rules
-    'indent': [
-      'error',
-      2,
-      { SwitchCase: 1, flatTernaryExpressions: true }
-    ],
-    "no-unused-vars": "warn",
-    // react hooks
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
-  }
+    indent: ['error', 2],
+    'no-unused-vars': 'warn',
+  },
 };
