@@ -1,4 +1,4 @@
-export default {
+const locale = {
   common: {
     name: 'Name',
     site: 'Site',
@@ -74,3 +74,5 @@ export default {
     en_GB_native: 'English',
   },
 };
+
+export default locale;

@@ -1,8 +1,8 @@
 /**
-*
-* common util
-*
-*/
+ *
+ * common util
+ *
+ */
 
 function openRaisedWindow(strUrl = '', strWindowName = '', strWindowFeatures = '') {
   if (!strUrl) return;
@@ -16,6 +16,4 @@ function openRaisedWindow(strUrl = '', strWindowName = '', strWindowFeatures = '
   window.open(strUrl, strWindowName || '_blank', strWindowFeatures || defaultWindowFeatures);
 }
 
-export {
-  openRaisedWindow,
-};
+export { openRaisedWindow };
