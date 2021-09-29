@@ -63,6 +63,7 @@ const locale = {
     viewDetails: '查看详情',
     search: '搜索',
     date: '日期',
+    copied: '已复制',
   },
 
   language: {

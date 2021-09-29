@@ -17,6 +17,9 @@ coverage
 node_modules/
 jspm_packages/
 
+# Output of 'npm pack'
+*.tgz
+
 # dotenv environment variables file
 .env
 .env.test
@@ -32,6 +35,13 @@ jspm_packages/
 # Next.js build output
 .next
 out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# misc
+.DS_Store
 
 # project
 config

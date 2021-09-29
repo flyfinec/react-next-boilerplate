@@ -7,5 +7,8 @@ module.exports = {
 
     return config;
   },
-  pageExtensions: ["page.js", "api.js"],
+  eslint: {
+    dirs: ['pages', 'app'], // Only run ESLint on the 'pages' and 'app' directories during production builds (next build)
+  },
+  pageExtensions: ['page.js', 'api.js'],
 };

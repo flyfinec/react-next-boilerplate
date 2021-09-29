@@ -63,6 +63,7 @@ const locale = {
     viewDetails: 'View details',
     search: 'Search',
     date: 'Date',
+    copied: 'Copied',
   },
 
   language: {

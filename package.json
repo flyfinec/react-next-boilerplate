@@ -5,6 +5,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "lint": "next lint --dir pages --dir app",
     "prettier:check": "prettier --check \"{app,pages}/**/*.{js,css,scss}\"",
     "prettier:fix": "prettier --write -l \"{app,pages}/**/*.{js,css,scss}\""
